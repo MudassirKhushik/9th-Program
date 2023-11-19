@@ -1,0 +1,23 @@
+//This is my 9th program
+//"	Prompt the user to enter three integers separated by ' , ' a comma. 
+
+#include <iostream>
+using namespace std;
+int main(){
+	
+	int x, y, z;
+	cout << "Enter three numbers. " << endl;
+	cout << "First number : " << endl;
+	cin >> x;
+	cout << "Second number : " << endl;
+	cin >> y;
+	cout << "Third number : " << endl;
+	cin >> z;
+	
+	cout << "Your entered numbers are : " << x;
+	cout << " , " << y;
+	cout << " , " << z;
+	
+	
+	return 0;
+}
